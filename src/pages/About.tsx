@@ -54,25 +54,25 @@ const About: React.FC = () => {
     {
       name: 'Atish Raaz',
       role: 'Founder & CEO',
-      bio: 'Former McKinsey consultant with 8+ years in agritech. IIT Bombay alumnus passionate about sustainable farming.',
+      bio: '',
       image: ''
     },
     {
       name: 'Satyam Raaz',
       role: 'Co-founder & CTO',
-      bio: 'PhD in Agricultural Engineering from IISc. Expert in IoT applications for livestock monitoring and dairy automation.',
+      bio: '',
       image: ''
     },
     {
       name: 'Raunak Kumar',
       role: 'Head of Operations',
-      bio: '15+ years in dairy farming operations. Former Manager at Amul with expertise in large-scale dairy management.',
+      bio: '',
       image: ''
     },
     {
       name: 'Niharika Maurya',
       role: 'Chief Financial Officer',
-      bio: 'CA with 12+ years in fintech and agricultural finance. Former VP at HDFC Bank\'s agri business division.',
+      bio: '',
       image: ''
     }
   ];
