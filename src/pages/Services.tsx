@@ -194,11 +194,11 @@ const Services: React.FC = () => {
                 {/* Image */}
                 <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
                   <div className="relative">
-                    <img 
+                    {/* <img 
                       src={``}
                       alt={service.title}
                       className="rounded-xl shadow-lg w-full h-80 object-cover"
-                    />
+                    /> */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl" />
                   </div>
                 </div>

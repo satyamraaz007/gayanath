@@ -52,28 +52,28 @@ const About: React.FC = () => {
 
   const team = [
     {
-      name: 'Arjun Patel',
+      name: 'Atish Raaz',
       role: 'Founder & CEO',
       bio: 'Former McKinsey consultant with 8+ years in agritech. IIT Bombay alumnus passionate about sustainable farming.',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg'
+      image: ''
     },
     {
-      name: 'Dr. Priya Sharma',
+      name: 'Satyam Raaz',
       role: 'Co-founder & CTO',
       bio: 'PhD in Agricultural Engineering from IISc. Expert in IoT applications for livestock monitoring and dairy automation.',
-      image: 'https://images.pexels.com/photos/3760854/pexels-photo-3760854.jpeg'
+      image: ''
     },
     {
-      name: 'Rajesh Kumar',
+      name: 'Raunak Kumar',
       role: 'Head of Operations',
       bio: '15+ years in dairy farming operations. Former Manager at Amul with expertise in large-scale dairy management.',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg'
+      image: ''
     },
     {
-      name: 'Anita Desai',
+      name: 'Niharika Maurya',
       role: 'Chief Financial Officer',
       bio: 'CA with 12+ years in fintech and agricultural finance. Former VP at HDFC Bank\'s agri business division.',
-      image: 'https://images.pexels.com/photos/3760856/pexels-photo-3760856.jpeg'
+      image: ''
     }
   ];
 
