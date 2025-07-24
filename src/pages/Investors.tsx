@@ -15,14 +15,14 @@ import {
 
 const Investors: React.FC = () => {
   const profitModel = [
-    { item: 'Milk Sales Revenue', amount: 2500, type: 'income' },
-    { item: 'Feed Costs', amount: -800, type: 'expense' },
-    { item: 'Veterinary Care', amount: -200, type: 'expense' },
-    { item: 'Facility Maintenance', amount: -300, type: 'expense' },
-    { item: 'Staff Costs', amount: -400, type: 'expense' },
-    { item: 'Insurance & Misc', amount: -100, type: 'expense' },
-    { item: 'Net Profit', amount: 700, type: 'profit' },
-    { item: 'Your Share (50%)', amount: 350, type: 'investor' }
+    { item: 'Milk Sales Revenue', amount: 25000, type: 'income' },
+    { item: 'Feed Costs', amount: -8000, type: 'expense' },
+    { item: 'Veterinary Care', amount: -2000, type: 'expense' },
+    { item: 'Facility Maintenance', amount: -3000, type: 'expense' },
+    { item: 'Staff Costs', amount: -4000, type: 'expense' },
+    { item: 'Insurance & Misc', amount: -1000, type: 'expense' },
+    { item: 'Net Profit', amount: 7000, type: 'profit' },
+    { item: 'Your Share (50%)', amount: 3500, type: 'investor' }
   ];
 
   const riskFactors = [
@@ -52,8 +52,8 @@ const Investors: React.FC = () => {
     {
       icon: TrendingUp,
       title: 'Attractive Returns',
-      description: '12-18% annual returns with daily profit sharing',
-      highlight: '15% avg return'
+      description: '40-50% annual returns with daily profit sharing',
+      highlight: '40-50% avg return'
     },
     {
       icon: Shield,
@@ -120,10 +120,10 @@ const Investors: React.FC = () => {
           {/* Key Metrics */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { icon: TrendingUp, value: '15%', label: 'Average Annual Return' },
-              { icon: Users, value: '500+', label: 'Active Investors' },
-              { icon: DollarSign, value: '₹2.5Cr', label: 'Total Invested' },
-              { icon: Award, value: '94%', label: 'Satisfaction Rate' }
+              { icon: TrendingUp, value: '40-50%', label: 'Average Annual Return' },
+              { icon: Users, value: '1', label: 'Active Investors' },
+              { icon: DollarSign, value: '₹1.5L', label: 'Total Invested' },
+              { icon: Award, value: '100%', label: 'Satisfaction Rate' }
             ].map((metric, index) => (
               <motion.div
                 key={metric.label}
@@ -193,8 +193,8 @@ const Investors: React.FC = () => {
                   <div className="bg-purple-50 p-4 rounded-lg">
                     <div className="text-center">
                       <p className="text-sm text-purple-600 mb-1">Your Monthly Earnings</p>
-                      <p className="text-2xl font-bold text-purple-600">₹350</p>
-                      <p className="text-xs text-gray-600">Annual: ₹4,200 (15% return on ₹1L investment)</p>
+                      <p className="text-2xl font-bold text-purple-600">₹3500</p>
+                      <p className="text-xs text-gray-600">Annual: ₹4,2000 (42% return on ₹1L investment)</p>
                     </div>
                   </div>
                 </div>

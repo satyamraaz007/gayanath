@@ -19,10 +19,10 @@ import CanvasScroller from '../components/Home/CanvasScroller';
 const Home: React.FC = () => {
   const facilityImages = [
     'https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg',
-    'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg',
-    'https://images.pexels.com/photos/1459503/pexels-photo-1459503.jpeg',
-    'https://images.pexels.com/photos/2255442/pexels-photo-2255442.jpeg',
-    'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
+    // 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg',
+    // 'https://images.pexels.com/photos/1459503/pexels-photo-1459503.jpeg',
+    // 'https://images.pexels.com/photos/2255442/pexels-photo-2255442.jpeg',
+    // 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
   ];
 
   const features = [
@@ -145,7 +145,7 @@ const Home: React.FC = () => {
       </section>
 
       {/* Secondary Navigation */}
-      <section className="bg-white border-b border-gray-200 sticky top-16 z-30">
+      {/* <section className="bg-white border-b border-gray-200 sticky top-16 z-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex overflow-x-auto py-4 space-x-8">
             {['About', 'Services', 'Process', 'Breeds', 'Investors', 'Impact', 'FAQs', 'Contact'].map((item) => (
@@ -159,7 +159,7 @@ const Home: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Canvas Scroll Section */}
       <CanvasScroller images={facilityImages} />
@@ -270,11 +270,11 @@ const Home: React.FC = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              <img 
+              {/* <img 
                 src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" 
                 alt="Dashboard preview" 
                 className="rounded-xl shadow-lg"
-              />
+              /> */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl" />
             </motion.div>
           </div>

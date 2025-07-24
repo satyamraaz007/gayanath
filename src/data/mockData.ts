@@ -47,8 +47,8 @@ export const breeds: Breed[] = [
       interval: 400
     },
     images: [
-      'https://images.pexels.com/photos/1459503/pexels-photo-1459503.jpeg',
-      'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
+      // 'https://images.pexels.com/photos/1459503/pexels-photo-1459503.jpeg',
+      // 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
     ],
     description: 'An indigenous Indian breed known for its hardy nature and high-quality milk with excellent nutritional properties.',
     characteristics: ['Heat tolerant', 'Disease resistant', 'High butterfat content', 'Long lifespan']
@@ -73,8 +73,8 @@ export const breeds: Breed[] = [
       interval: 350
     },
     images: [
-      'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg',
-      'https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg'
+      // 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg',
+      // 'https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg'
     ],
     description: 'Jersey cows are known for their rich, creamy milk with high butterfat content and efficient feed conversion.',
     characteristics: ['High butterfat milk', 'Efficient feed conversion', 'Docile temperament', 'Early maturity']
