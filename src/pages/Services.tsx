@@ -195,7 +195,7 @@ const Services: React.FC = () => {
                 <div className={index % 2 === 1 ? 'lg:col-start-1' : ''}>
                   <div className="relative">
                     <img 
-                      src={`https://images.pexels.com/photos/${1000000 + service.id}/pexels-photo-${1000000 + service.id}.jpeg?w=600&h=400`}
+                      src={``}
                       alt={service.title}
                       className="rounded-xl shadow-lg w-full h-80 object-cover"
                     />
