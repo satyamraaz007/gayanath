@@ -90,7 +90,7 @@ const FAQs: React.FC = () => {
       id: 11,
       category: 'returns',
       question: 'What is the expected return on investment?',
-      answer: 'Historical returns have ranged from 12-18% annually, with an average of 15%. Returns depend on milk yield, market prices, and operational efficiency. We provide transparent reporting so you can track performance in real-time.'
+      answer: 'Historical returns have ranged from 40-50% annually, with an average of 15%. Returns depend on milk yield, market prices, and operational efficiency. We provide transparent reporting so you can track performance in real-time.'
     },
     {
       id: 12,

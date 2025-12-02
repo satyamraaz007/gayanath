@@ -56,7 +56,7 @@ const AiChatWidget: React.FC = () => {
     }
     
     if (lowerMessage.includes('return') || lowerMessage.includes('profit')) {
-      return 'You receive 50% of the net profit from milk sales. Average returns range from 12-18% annually. Returns depend on milk yield, market prices, and operational efficiency.';
+      return 'You receive 50% of the net profit from milk sales. Average returns range from 40-50% annually. Returns depend on milk yield, market prices, and operational efficiency.';
     }
     
     if (lowerMessage.includes('cctv') || lowerMessage.includes('monitor')) {

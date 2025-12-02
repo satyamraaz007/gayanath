@@ -10,6 +10,7 @@ import {
   Newspaper,
   ArrowRight 
 } from 'lucide-react';
+import VictorMan from '../../public/victor_man.png';
 
 const About: React.FC = () => {
   const timeline = [
@@ -61,7 +62,7 @@ const About: React.FC = () => {
       name: 'Satyam Raaz',
       role: 'Co-founder & CTO',
       bio: '',
-      image: ''
+      image: '../../public/victor_man.png'
     },
     {
       name: 'Raunak Kumar',

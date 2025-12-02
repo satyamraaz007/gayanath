@@ -15,6 +15,7 @@ import {
   Award
 } from 'lucide-react';
 import CanvasScroller from '../components/Home/CanvasScroller';
+import CowShed from '../../public/cow_shed.jpg';
 
 const Home: React.FC = () => {
   const facilityImages = [
@@ -84,19 +85,19 @@ const Home: React.FC = () => {
   const testimonials = [
     {
       name: "Priya Sharma",
-      location: "Mumbai",
+      location: "Bihar",
       text: "Amazing platform! I can see my cow Bella every day and track her health. The returns are consistent and transparent.",
       rating: 5
     },
     {
       name: "Rajesh Kumar",
-      location: "Delhi",
+      location: "Bihar",
       text: "Best investment decision I made. The technology and care provided is outstanding. Highly recommended!",
       rating: 5
     },
     {
-      name: "Anjali Patel",
-      location: "Pune",
+      name: "Ram Shewak",
+      location: "Bihar",
       text: "Love the transparency and real-time monitoring. My cow is healthy and productive. Great ROI!",
       rating: 5
     }
@@ -270,11 +271,11 @@ const Home: React.FC = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              {/* <img 
-                src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" 
+              <img 
+                src={CowShed}
                 alt="Dashboard preview" 
                 className="rounded-xl shadow-lg"
-              /> */}
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl" />
             </motion.div>
           </div>
@@ -302,7 +303,7 @@ const Home: React.FC = () => {
               className="bg-white p-8 rounded-xl shadow-sm text-center"
             >
               <TrendingUp className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">12-18%</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">40-50%</h3>
               <p className="text-gray-600">Annual Returns</p>
             </motion.div>
             <motion.div

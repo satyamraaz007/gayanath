@@ -120,7 +120,7 @@ const Impact: React.FC = () => {
             className="text-center mb-16"
           >
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-              Our <span className="text-green-600">Impact</span>
+              Our <span className="text-green-600">Target Impact</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Creating positive change for animals, communities, and the environment 
@@ -371,7 +371,7 @@ const Impact: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-4xl font-bold text-white mb-4">Join Our Impact Journey</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">Join  Journey</h2>
             <p className="text-xl text-green-100 mb-8">
               Be part of a movement that creates positive change for animals, communities, and the planet.
             </p>

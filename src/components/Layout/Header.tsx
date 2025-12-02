@@ -24,9 +24,9 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-2 rounded-lg">
+            {/* <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-2 rounded-lg">
               <Leaf className="h-6 w-6 text-white" />
-            </div>
+            </div> */}
             <span className="text-xl font-bold text-gray-900">GAYANATH</span>
           </Link>
 

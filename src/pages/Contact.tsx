@@ -49,16 +49,16 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: '+91 98765 43210',
-      subDetails: '+91 98765 43211',
+      details: '+91 79033 19816',
+      subDetails: '+91 8252800110',
       color: 'text-green-600',
       bgColor: 'bg-green-100'
     },
     {
       icon: MapPin,
       title: 'Visit Us',
-      details: 'Koramangala, Bangalore',
-      subDetails: 'Karnataka 560034, India',
+      details: 'Begusarai, Bihar',
+      subDetails: '851127, India',
       color: 'text-purple-600',
       bgColor: 'bg-purple-100'
     },
@@ -82,25 +82,25 @@ const Contact: React.FC = () => {
 
   const offices = [
     {
-      city: 'Bangalore',
-      address: '123 Tech Park, Koramangala, Bangalore, Karnataka 560034',
-      phone: '+91 98765 43210',
-      email: 'bangalore@gayanath.com',
+      city: 'Begusarai',
+      address: 'Begusarai, Bihar, 851127',
+      phone: '+91 79033 19816',
+      email: 'begusarai@gayanath.com',
       type: 'Headquarters'
     },
     {
-      city: 'Mumbai',
-      address: '456 Business Center, Andheri East, Mumbai, Maharashtra 400069',
-      phone: '+91 98765 43211',
-      email: 'mumbai@gayanath.com',
-      type: 'Regional Office'
+      city: 'Under Development',
+      address: 'NA',
+      phone: 'NA',
+      email: 'NA',
+      type: 'NA'
     },
     {
-      city: 'Delhi',
-      address: '789 Corporate Hub, Gurgaon, Haryana 122001',
-      phone: '+91 98765 43212',
-      email: 'delhi@gayanath.com',
-      type: 'Regional Office'
+      city: 'Under Development',
+      address: 'NA',
+      phone: 'NA',
+      email: 'NA',
+      type: 'NA'
     }
   ];
 
@@ -213,7 +213,7 @@ const Contact: React.FC = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 xxxxx xxxxx"
                     />
                   </div>
                   <div>
