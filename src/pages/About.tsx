@@ -11,6 +11,9 @@ import {
   ArrowRight 
 } from 'lucide-react';
 import VictorMan from '../../public/victor_man.png';
+import Atish from '../../public/atish.jpg';
+import Niharika from '../../public/niharika.jpg';
+import Mantasha from '../../public/mantsha.jpg';
 
 const About: React.FC = () => {
   const timeline = [
@@ -56,25 +59,25 @@ const About: React.FC = () => {
       name: 'Atish Raaz',
       role: 'Founder & CEO',
       bio: '',
-      image: ''
+      image: Atish
     },
     {
       name: 'Satyam Raaz',
       role: 'Co-founder & CTO',
       bio: '',
-      image: '../../public/victor_man.png'
+      image: VictorMan
     },
     {
-      name: 'Raunak Kumar',
+      name: 'Mantsha Khanam',
       role: 'Head of Operations',
       bio: '',
-      image: ''
+      image: Mantasha
     },
     {
       name: 'Niharika Maurya',
       role: 'Chief Financial Officer',
       bio: '',
-      image: ''
+      image: Niharika
     }
   ];
 
