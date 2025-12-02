@@ -185,8 +185,8 @@ const Services: React.FC = () => {
   const stats = [
     { icon: Shield, value: "99.9%", label: "Uptime Guarantee" },
     { icon: Clock, value: "24/7", label: "Monitoring" },
-    { icon: Users, value: "500+", label: "Happy Investors" },
-    { icon: Heart, value: "1000+", label: "Healthy Cows" },
+    { icon: Users, value: "500+", label: "Happy Investors (target)*" },
+    { icon: Heart, value: "1000+", label: "Healthy Cows (target)*" },
   ];
 
   return (
