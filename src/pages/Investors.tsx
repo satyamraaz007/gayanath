@@ -52,8 +52,8 @@ const Investors: React.FC = () => {
     {
       icon: TrendingUp,
       title: 'Attractive Returns',
-      description: '40-50% annual returns with daily profit sharing',
-      highlight: '40-50% avg return'
+      description: '25-40% annual returns with daily profit sharing',
+      highlight: '25-40% avg return'
     },
     {
       icon: Shield,

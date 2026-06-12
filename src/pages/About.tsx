@@ -10,10 +10,10 @@ import {
   Newspaper,
   ArrowRight 
 } from 'lucide-react';
-import VictorMan from '../../public/victor_man.png';
+import VictorMan from '../../public/satyam.jpeg';
 import Atish from '../../public/atish.jpg';
 import Niharika from '../../public/niharika.jpg';
-import Mantasha from '../../public/mantsha.jpg';
+import Akriti from '../../public/akriti.jpeg';
 
 const About: React.FC = () => {
   const timeline = [
@@ -68,17 +68,17 @@ const About: React.FC = () => {
       image: VictorMan
     },
     {
-      name: 'Mantsha Khanam',
+      name: 'Akriti kumari',
       role: 'Head of Operations',
       bio: '',
-      image: Mantasha
+      image: Akriti
     },
-    {
-      name: 'Niharika Maurya',
-      role: 'Chief Financial Officer',
-      bio: '',
-      image: Niharika
-    }
+    // {
+    //   name: 'Niharika Maurya',
+    //   role: 'Chief Financial Officer',
+    //   bio: '',
+    //   image: Niharika
+    // }
   ];
 
   const values = [
@@ -281,7 +281,7 @@ const About: React.FC = () => {
             <p className="text-xl text-gray-600">Passionate experts driving innovation in dairy farming</p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {team.map((member, index) => (
               <motion.div
                 key={member.name}
@@ -294,11 +294,11 @@ const About: React.FC = () => {
                 <img 
                   src={member.image} 
                   alt={member.name}
-                  className="w-full h-64 object-cover"
+                  className="w-full h-80 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h3>
-                  <p className="text-green-600 font-medium mb-3">{member.role}</p>
+                  <h3 className="text-xl font-bold text-gray-900 mb-1 text-center">{member.name}</h3>
+                  <p className="text-green-600 font-medium mb-3 text-center">{member.role}</p>
                   <p className="text-gray-600 text-sm">{member.bio}</p>
                 </div>
               </motion.div>

@@ -303,7 +303,7 @@ const Home: React.FC = () => {
               className="bg-white p-8 rounded-xl shadow-sm text-center"
             >
               <TrendingUp className="h-12 w-12 text-green-600 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">40-50%</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">25-40%</h3>
               <p className="text-gray-600">Annual Returns</p>
             </motion.div>
             <motion.div

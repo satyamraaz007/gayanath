@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Leaf } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Logo from '../../../public/gayanath_logo.png';
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,9 +25,9 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            {/* <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-2 rounded-lg">
-              <Leaf className="h-6 w-6 text-white" />
-            </div> */}
+            {/* <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-2 rounded-lg"> */}
+              <img src={Logo} alt="Gayanath Logo" className="h-12 w-12 text-white" />
+            {/* </div> */}
             <span className="text-xl font-bold text-gray-900">GAYANATH</span>
           </Link>
 

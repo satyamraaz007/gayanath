@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import Logo from '../../../public/gayanath_logo.png';
+
 
 const Footer: React.FC = () => {
   return (
@@ -11,13 +13,12 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="bg-gradient-to-r from-green-500 to-emerald-600 p-2 rounded-lg">
-                <Leaf className="h-6 w-6 text-white" />
+                <img src={Logo} alt="Gayanath Logo" className="h-20 w-20 text-white" />
               </div>
-              <span className="text-xl font-bold">GAYANATH</span>
+              {/* <span className="text-xl font-bold">GAYANATH</span> */}
             </div>
             <p className="text-gray-400 mb-4">
-              Revolutionizing dairy farming through technology and transparency.
-              Invest in smart dairy solutions for sustainable returns.
+              Service as well as investment
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-gray-400 hover:text-white cursor-pointer transition-colors" />
