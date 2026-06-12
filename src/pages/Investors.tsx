@@ -120,7 +120,7 @@ const Investors: React.FC = () => {
           {/* Key Metrics */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { icon: TrendingUp, value: '40-50%', label: 'Average Annual Return' },
+              { icon: TrendingUp, value: '25-40%', label: 'Average Annual Return' },
               { icon: Users, value: '1', label: 'Active Investors' },
               { icon: DollarSign, value: '₹1.5L', label: 'Total Invested' },
               { icon: Award, value: '100%', label: 'Satisfaction Rate' }

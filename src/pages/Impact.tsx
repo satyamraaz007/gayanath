@@ -17,10 +17,10 @@ import {
 
 const Impact: React.FC = () => {
   const impactMetrics = [
-    { icon: Heart, value: '1,000+', label: 'Cows Under Care', color: 'text-red-500' },
-    { icon: Users, value: '150+', label: 'Rural Jobs Created', color: 'text-blue-500' },
-    { icon: Leaf, value: '2,500T', label: 'CO₂ Reduced Annually', color: 'text-green-500' },
-    { icon: Droplets, value: '50M L', label: 'Quality Milk Produced', color: 'text-cyan-500' }
+    { icon: Heart, value: '20+', label: 'Cows Under Care', color: 'text-red-500' },
+    { icon: Users, value: '2', label: 'Rural Jobs Created', color: 'text-blue-500' },
+    { icon: Leaf, value: 'Not Calculated', label: 'CO₂ Reduced Annually', color: 'text-green-500' },
+    { icon: Droplets, value: '50,000+ L', label: 'Quality Milk Produced', color: 'text-cyan-500' }
   ];
 
   const animalWelfare = [
@@ -200,7 +200,7 @@ const Impact: React.FC = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Rural Community Impact</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Expected Rural Community Impact</h2>
             <p className="text-xl text-gray-600">Empowering rural communities through sustainable development</p>
           </motion.div>
 
@@ -239,7 +239,7 @@ const Impact: React.FC = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Environmental Sustainability</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Expected Environmental Sustainability</h2>
             <p className="text-xl text-gray-600">Leading the way in sustainable dairy farming practices</p>
           </motion.div>
 

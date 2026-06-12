@@ -25,6 +25,7 @@ import MilkingService from "../../public/milking_service.webp";
 import PayoutService from "../../public/payout_service1.jpg";
 import CctvService from "../../public/cctv_service.jpg";
 import CalfService from "../../public/calf_service.webp";
+import VeternityCare from '../../public/veterinaryCare.jpg'
 
 const Services: React.FC = () => {
   const services = [
@@ -111,7 +112,7 @@ const Services: React.FC = () => {
         "Emergency services",
       ],
       cta: "Care Details",
-      img: FeedingService,
+      img: VeternityCare,
     },
     {
       id: 6,
