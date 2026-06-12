@@ -104,9 +104,9 @@ const Impact: React.FC = () => {
     { goal: 1, title: 'No Poverty', description: 'Creating rural employment opportunities' },
     { goal: 2, title: 'Zero Hunger', description: 'Producing nutritious milk for communities' },
     { goal: 3, title: 'Good Health', description: 'Ensuring animal welfare and food safety' },
-    { goal: 8, title: 'Decent Work', description: 'Providing fair wages and safe working conditions' },
-    { goal: 12, title: 'Responsible Consumption', description: 'Sustainable production practices' },
-    { goal: 13, title: 'Climate Action', description: 'Reducing carbon footprint and emissions' }
+    { goal: 4, title: 'Decent Work', description: 'Providing fair wages and safe working conditions' },
+    { goal: 5, title: 'Responsible Consumption', description: 'Sustainable production practices' },
+    { goal: 6, title: 'Climate Action', description: 'Reducing carbon footprint and emissions' }
   ];
 
   return (
