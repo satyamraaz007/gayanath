@@ -24,7 +24,7 @@ export const breeds: Breed[] = [
     },
     images: [
       'https://images.pexels.com/photos/422218/pexels-photo-422218.jpeg',
-      'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
+      // 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg'
     ],
     description: 'The Holstein Friesian is the world\'s highest milk-producing dairy breed, known for its distinctive black and white markings.',
     characteristics: ['High milk yield', 'Disease resistant', 'Adaptable to various climates', 'Long productive life']
